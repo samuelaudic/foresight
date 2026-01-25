@@ -20,7 +20,7 @@ The goal of this project is to experiment with a clean, modular Spring Boot arch
 
 This project follows a simplified Conventional Commits format:
 
-<type>: <short description>
+<type>: <short description> 
 
 Allowed types:
 - feat
@@ -29,6 +29,8 @@ Allowed types:
 - refactor
 - docs
 - test
+
+Link : https://www.conventionalcommits.org/en/v1.0.0/
 
 ---
 
