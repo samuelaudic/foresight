@@ -1,19 +1,14 @@
 ---
 name: Feature
 description: New feature or functional improvement
-labels: [type:feature]
+labels: [feature]
 ---
 
 ## Summary
-Short description of the feature.
+What this feature does.
 
 ## Context
-Why this feature is needed (user / product / technical context).
-
-## Acceptance criteria
-- [ ] Criterion 1
-- [ ] Criterion 2
-- [ ] Criterion 3
+Why this feature is needed (product, user, or technical context).
 
 ## Notes
 Optional technical or design notes.
