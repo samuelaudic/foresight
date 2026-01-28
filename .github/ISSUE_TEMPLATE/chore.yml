@@ -1,0 +1,20 @@
+name: Chore / Tech
+description: Tâche technique, refactor ou maintenance
+labels: ["type:chore"]
+
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      placeholder: Décrire la tâche technique
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Impact
+      placeholder: |
+        - Code
+        - CI
+        - Infra
+        - Documentation
