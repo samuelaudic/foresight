@@ -1,0 +1,28 @@
+name: Bug
+description: Problème ou comportement incorrect
+labels: ["type:bug"]
+
+body:
+  - type: textarea
+    attributes:
+      label: Description du bug
+      placeholder: Décrire précisément le problème
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Étapes pour reproduire
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Comportement attendu
+      placeholder: Ce qui aurait dû se passer
+    validations:
+      required: true

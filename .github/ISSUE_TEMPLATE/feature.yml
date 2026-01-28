@@ -1,0 +1,37 @@
+name: Feature
+description: Nouvelle fonctionnalité ou amélioration métier
+labels: ["type:feature"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Objectif
+        Décrire clairement ce que cette fonctionnalité apporte.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexte
+      description: Pourquoi cette feature est nécessaire ?
+      placeholder: Contexte métier, technique ou produit
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critères d’acceptation
+      description: Conditions de validation
+      placeholder: |
+        - [ ] Cas nominal
+        - [ ] Cas d’erreur
+        - [ ] Contraintes métier
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes techniques (optionnel)
+      description: Points d’attention, dette, alternatives
